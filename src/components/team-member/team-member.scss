@@ -1,0 +1,26 @@
+.container {
+  padding: 5px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #D4145A 0%, #FBB03B 100%);
+
+  h3 {
+    margin: 0;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+  }
+  
+  a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+}

@@ -1,5 +1,6 @@
 import VilvaAvatar from '../images/vilva-avatar.jpeg';
 import AmeerAvatar from '../images/ameer-avatar.jpg';
+import GaneshAvatar from '../images/ganesh-avatar.jpeg';
 
 export const TEAM_MEMBERS = [
   {
@@ -11,5 +12,10 @@ export const TEAM_MEMBERS = [
     name: 'Ameer Jhan',
     avatar: AmeerAvatar,
     twitter: 'ameerthehacker'
+  },
+  {
+    name: 'GaneshMani',
+    avatar: GaneshAvatar,
+    twitter: 'ganeshmani009'
   },
 ];

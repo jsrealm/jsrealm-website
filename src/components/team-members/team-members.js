@@ -1,7 +1,7 @@
 import React from 'react';
-import TeamMember from './team-member';
-import { TEAM_MEMBERS } from '../data/team-members';
-import './team-members.css';
+import TeamMember from '../team-member/team-member';
+import { TEAM_MEMBERS } from '../../data/team-members';
+import './team-members.scss';
 
 export default function TeamMembers() {
   return (
@@ -11,7 +11,8 @@ export default function TeamMembers() {
           TEAM_MEMBERS.map(teamMember => {
             const { name, avatar, twitter } = teamMember;
         
-            return <TeamMember 
+            return <TeamMember
+                      key={twitter} 
                       name={name} 
                       avatar={avatar}
                       twitter={twitter}
