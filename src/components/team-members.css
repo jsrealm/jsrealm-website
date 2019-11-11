@@ -1,0 +1,11 @@
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-members {
+    flex-direction: column;
+  }
+}

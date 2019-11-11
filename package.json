@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "jsrealm",
+  "description": "single page website for jsrealm community",
+  "version": "0.0.13",
+  "author": "ameerthehacker",
+  "license": "MIT",
+  "starter-name": "gatsby-starter-portfolio-cara",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-cara": "^1.0.10",
+    "gatsby": "^2.13.72",
+    "gatsby-plugin-google-analytics": "^2.1.8",
+    "gatsby-plugin-manifest": "^2.2.6",
+    "gatsby-plugin-netlify": "^2.1.6",
+    "gatsby-plugin-offline": "^2.2.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
