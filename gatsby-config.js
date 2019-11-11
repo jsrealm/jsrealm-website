@@ -20,9 +20,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
+        name: `JsRealm - An awesome JavaScript community`,
         short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        description: `An awesome JavaScript community`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
