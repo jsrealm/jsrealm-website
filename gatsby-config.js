@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `JsRealm - An awesome JavaScript community`,
-        short_name: `Cara`,
+        short_name: `JsRealm`,
         description: `An awesome JavaScript community`,
         start_url: `/`,
         background_color: `#141821`,
