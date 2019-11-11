@@ -12,17 +12,4 @@ export const TEAM_MEMBERS = [
     avatar: AmeerAvatar,
     twitter: 'ameerthehacker'
   },
-  {
-    name: 'Ameer Jhan',
-    avatar: AmeerAvatar,
-    twitter: 'ameerthehacker'
-  },{
-    name: 'Ameer Jhan',
-    avatar: AmeerAvatar,
-    twitter: 'ameerthehacker'
-  },{
-    name: 'Ameer Jhan',
-    avatar: AmeerAvatar,
-    twitter: 'ameerthehacker'
-  },
 ];
