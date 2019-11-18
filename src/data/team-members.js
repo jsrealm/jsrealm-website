@@ -1,7 +1,7 @@
-import VilvaAvatar from "../images/vilva-avatar.jpeg";
-import AmeerAvatar from "../images/ameer-avatar.jpg";
-import GaneshAvatar from "../images/ganesh-avatar.jpeg";
-import JayaKrishnaAvatar from "../images/jaya-kumar-avatar.jpeg";
+import VilvaAvatar from '../images/vilva-avatar.jpeg';
+import AmeerAvatar from '../images/ameer-avatar.jpg';
+import GaneshAvatar from '../images/ganesh-avatar.jpeg';
+import JayaKrishnaAvatar from '../images/jaya-kumar-avatar.jpeg';
 
 export const TEAM_MEMBERS = [
   {
@@ -10,18 +10,18 @@ export const TEAM_MEMBERS = [
     twitter: "vilvaathibanpb"
   },
   {
-    name: "Ameer Jhan",
+    name: 'Ameer Jhan',
     avatar: AmeerAvatar,
-    twitter: "ameerthehacker"
+    twitter: 'ameerthehacker'
   },
   {
-    name: "GaneshMani",
+    name: 'GaneshMani',
     avatar: GaneshAvatar,
-    twitter: "ganeshmani009"
+    twitter: 'ganeshmani009'
   },
   {
-    name: "Jaya Krishna Namburu",
+    name: 'Jaya Krishna Namburu',
     avatar: JayaKrishnaAvatar,
-    twitter: "askjkrishna"
+    twitter: 'askjkrishna'
   }
 ];
