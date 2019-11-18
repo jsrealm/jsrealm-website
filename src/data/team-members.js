@@ -1,13 +1,13 @@
 import VilvaAvatar from '../images/vilva-avatar.jpeg';
 import AmeerAvatar from '../images/ameer-avatar.jpg';
 import GaneshAvatar from '../images/ganesh-avatar.jpeg';
-import JayaKumarAvatar from '../images/jaya-kumar-avatar.jpeg';
+import JayaKrishnaAvatar from '../images/jaya-kumar-avatar.jpeg';
 
 export const TEAM_MEMBERS = [
   {
-    name: 'Vilva Athiban',
+    name: "Vilva Athiban",
     avatar: VilvaAvatar,
-    twitter: 'vilvaathibanpb'
+    twitter: "vilvaathibanpb"
   },
   {
     name: 'Ameer Jhan',
@@ -20,8 +20,8 @@ export const TEAM_MEMBERS = [
     twitter: 'ganeshmani009'
   },
   {
-    name: 'Jaya Krishna',
-    avatar: JayaKumarAvatar,
+    name: 'Jaya Krishna Namburu',
+    avatar: JayaKrishnaAvatar,
     twitter: 'askjkrishna'
-  },
+  }
 ];
