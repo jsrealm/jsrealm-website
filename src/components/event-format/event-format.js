@@ -1,13 +1,14 @@
 import React from 'react';
-import './eventFormat.scss';
+import './event-format.scss';
+
 const EventFormat = () => {
   return (
-    <div className="format-container">
-      <h2 className="css-18m2xie"> Format </h2>
+    <div>
+      <h3>Format </h3>
       <h3>There are two different formats of events</h3>
       <div className="event-description">
-        <h3 className="css-7sgb7i">CHISEL - TALKS</h3>
-        <p className="css-v5ivh2">
+        <h3>CHISEL - TALKS</h3>
+        <p>
           A set of 2 or 3 Technical Talks, wherein there will be technical talks
           about advanced topics. This focuses more on Experienced people who
           would love to stay updated or learn about use cases how people solved
@@ -19,8 +20,6 @@ const EventFormat = () => {
           No specific Agenda for 30 minutes and only for interested people who
           stay back
         </p>
-      </div>
-      <div className="event-description">
         <h3>MOULD - CODELABS:</h3>
         <p>
           It will be a 2-3 hours session, wherein, we take a particular
