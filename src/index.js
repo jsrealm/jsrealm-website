@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider, CSSReset } from '@chakra-ui/core';
-import './index.css';
+import './index.scss';
 import App from './pages/app';
 
 const Root = (

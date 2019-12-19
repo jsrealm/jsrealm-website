@@ -1,0 +1,15 @@
+a + a {
+  margin-left: 10px;
+}
+
+.social {
+  padding: 100px;
+  color: #fff;
+  background: linear-gradient(to right, #36d1dc 0%, #5b86e5 100%)
+}
+
+@media only screen and (max-width: 700px) {
+  .social {
+    padding: 20px;
+  }
+}
