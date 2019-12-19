@@ -1,0 +1,16 @@
+.process {
+  width: 100%;
+  background: linear-gradient(to right, #c33764 0%, #1d2671 100%);
+  color: #fff; 
+  padding: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  ol li, .ref {
+    font-size: 18px !important;
+  }
+
+  .process {
+    padding: 40px !important;
+  }
+}

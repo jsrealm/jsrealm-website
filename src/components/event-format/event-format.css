@@ -1,0 +1,24 @@
+.event-format {
+  width: 100%;
+  background: linear-gradient(to right, #36d1dc 0%, #5b86e5 100%);
+  color: #fff;
+  padding: 100px;
+}
+
+.event-format p {
+  line-height: 1.5;
+}
+
+ol li {
+  font-size: x-large;
+}
+
+@media only screen and (max-width: 700px) {
+  .event-description p {
+    font-size: 18px !important;
+  }
+
+  .event-format {
+    padding: 20px;
+  }
+}
