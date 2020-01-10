@@ -28,6 +28,6 @@ export const TEAM_MEMBERS = [
   {
     name: 'Kirankumar Ambati',
     avatar: KiranAvatar,
-    twitter: _sudo_user
+    twitter: '_sudo_user'
   }
 ];
