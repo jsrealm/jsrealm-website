@@ -15,7 +15,7 @@ function Intro() {
       <div>
         <Text fontSize="5xl" textAlign="center">Welcome to JsRealm</Text>
         <Text fontSize="18px" className="description" textAlign="center">
-        We are a bunch of JavaScript / GraphQL enthusiasts, who is very active in the community. In India, there is a strong community of JS devs, but its concentration is in specific regions. There are many instances where people had to travel to Bangalore / Delhi NCR for Meetups & Conferences. And people who can't travel find it very hard to keep themselves update in trends, learn new techniques and learning technologies. We identified a problem here and attempting to solve the issue through JSRealm
+        We are a bunch of JavaScript / GraphQL enthusiasts, who are very active in the community. In India, there is a strong community of JS devs, but its concentration is in specific regions. There are many instances where people had to travel to Bangalore / Delhi NCR for Meetups & Conferences. And people who can't travel, find it very hard to keep themselves up to date in trends, learn new techniques and technologies. We identified a problem here and attempting to solve the issue at Hyderabad and Chennai through JSRealm
         </Text>
       </div>
       <Button onClick={() => window.open(regUrl)} mt="5" variantColor="white" variant={"outline"}>Register Now</Button>
