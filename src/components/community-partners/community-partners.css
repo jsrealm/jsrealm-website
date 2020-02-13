@@ -1,0 +1,19 @@
+a + a {
+  margin-left: 10px;
+}
+
+.community-partner {
+  padding: 100px;
+  color: #fff;
+  background: linear-gradient(to right, #c33764 0%, #1d2671 100%);
+}
+
+.community-partner > a {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .community-partner {
+    padding: 20px;
+  }
+}

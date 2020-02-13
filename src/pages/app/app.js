@@ -4,6 +4,7 @@ import EventFormat from '../../components/event-format';
 import Process from '../../components/process';
 import TeamMembers from '../../components/team-members';
 import Social from '../../components/social';
+import CommunityPartners from '../../components/community-partners/community-partners';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <EventFormat />
       <Process />
       <TeamMembers />
+      <CommunityPartners />
       <Social />
     </>
   );

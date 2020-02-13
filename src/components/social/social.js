@@ -5,19 +5,19 @@ import './social.css';
 function Social() {
   return (
     <Flex className="social" justifyContent="center">
-      <div style={{"text-align": "center"}}>
+      <div style={{"textAlign": "center"}}>
         <Text fontSize="4xl">Get in touch</Text>
         <Link href="https://github.com/jsrealm">
-          <i class="fa fa-github"></i> GitHub
+          <i className="fa fa-github"></i> GitHub
         </Link>
         <Link href="https://www.linkedin.com/in/jsrealm-community-96731b197/">
-          <i class="fa fa-linkedin-square"></i> LinkedIn
+          <i className="fa fa-linkedin-square"></i> LinkedIn
         </Link>
         <Link href="https://twitter.com/js_realm">
-          <i class="fa fa-twitter"></i> Twitter
+          <i className="fa fa-twitter"></i> Twitter
         </Link>
         <Link href="mailto:jsrealmcommunity@gmail.com">
-          <i class="fa fa-google"></i> Mail
+          <i className="fa fa-google"></i> Mail
         </Link>
       </div>
     </Flex>
