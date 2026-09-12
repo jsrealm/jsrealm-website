@@ -24,3 +24,11 @@ export function findSpeaker(speakers, twitterHandle) {
 export function buildEventUrl(baseUrl, eventId) {
   return baseUrl + '/events/' + eventId;
 }
+
+export function totalAttendees(events) {
+  let total = 0;
+  for (const event of events) {
+    total += parseInt(event.attendees);
+  }
+  return total;
+}
